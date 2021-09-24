@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.PaymentActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="28dp"
+            android:layout_gravity="start"
+            android:layout_weight="0"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24"
+            app:tint="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="32dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:fontFamily="@font/droid_sans_bold"
+            android:gravity="center_horizontal"
+            android:text="Payment"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+
+    </LinearLayout>
+
+
+    <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:id="@+id/confirmBooking"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_margin="16dp"
+        android:textSize="16sp"
+        app:spinning_bar_padding="4dp"
+        app:spinning_bar_width="4dp"
+        android:elevation="1dp"
+        app:spinning_bar_color="@color/black"
+        android:text="Confirm Booking"
+        android:textAllCaps="false" />
+
+</LinearLayout>

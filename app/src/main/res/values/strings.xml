@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HotelCheck</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Booking</string>
+    <string name="title_notifications">Profile</string>
+    <string name="description">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided inside a hotel room may range from a modest-quality mattress in a small room to large suites with bigger, higher-quality beds, a dresser, a refrigerator and other kitchen facilities, upholstered chairs, a flat screen television, and en-suite bathrooms.</string>
+</resources>

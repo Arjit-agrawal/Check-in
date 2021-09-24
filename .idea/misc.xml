@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/activity_booking.xml" value="0.264" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/activity_booking_detail.xml" value="0.264" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/activity_code_view.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/activity_hotel_desc.xml" value="0.264" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/activity_hotel_room.xml" value="0.271286231884058" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/activity_log_in.xml" value="0.2534246575342466" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/activity_payment.xml" value="0.36180904522613067" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/activity_payment_success.xml" value="0.4" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/activity_sign_up.xml" value="0.37185929648241206" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/activity_splash_screen.xml" value="0.27445652173913043" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/fragment_dashboard.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/fragment_home.xml" value="0.39351851851851855" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/fragment_notifications.xml" value="0.27445652173913043" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/sample_booking_hotel.xml" value="0.30522088353413657" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/sample_hotel.xml" value="0.3057553956834532" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/layout/sample_room.xml" value="0.264" />
+        <entry key="..\:/Users/krgau/AndroidStudioProjects/HotelCheck/app/src/main/res/menu/bottom_nav_menu.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

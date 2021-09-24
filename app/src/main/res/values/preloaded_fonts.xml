@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/amiko_bold</item>
+        <item>@font/athiti</item>
+        <item>@font/athiti_light</item>
+        <item>@font/baloo_bhai</item>
+        <item>@font/bubbler_one</item>
+        <item>@font/coming_soon</item>
+        <item>@font/droid_sans_bold</item>
+        <item>@font/lato_bold</item>
+        <item>@font/muli_black</item>
+    </array>
+</resources>
