@@ -41,11 +41,12 @@
     </LinearLayout>
 
     <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:id="@+id/signOut"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:text="Sign Out"
-        app:cornerRadius="8dp"
+        android:text="Log Out"
+        app:cornerRadius="12dp"
         android:layout_margin="16dp"
         android:layout_gravity="bottom"
         android:fontFamily="@font/droid_sans_bold"
