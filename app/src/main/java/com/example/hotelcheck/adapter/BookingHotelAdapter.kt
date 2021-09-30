@@ -24,7 +24,6 @@ class BookingHotelAdapter(options: FirestoreRecyclerOptions<HistoryModel>, priva
         val bookingDate : TextView = itemView.findViewById(R.id.bookingDate)
         val totalPrice : TextView = itemView.findViewById(R.id.price)
         val roomNumber : TextView = itemView.findViewById(R.id.bookingRoomNumber)
-        //val bookingState : Button = itemView.findViewById(R.id.bookingState)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -45,19 +44,6 @@ class BookingHotelAdapter(options: FirestoreRecyclerOptions<HistoryModel>, priva
         holder.itemView.setOnClickListener {
             listener.onItemClickListener(snapshots.getSnapshot(position).id)
         }
-        /*if (model.bookingState == "1") {
-            holder.bookingState.text = "Check In"
-        }
-        else if (model.bookingState == "2") {
-            holder.bookingState.setBackgroundColor(Color.parseColor("#B9C6D1"))
-            holder.bookingState.text = "Checked In"
-        }
-        holder.bookingState.setOnClickListener {
-            if (model.bookingState == "1") {
-                FirebaseFirestore.getInstance().collection("Booking").document(snapshots.getSnapshot(position).id)
-                    .update("bookingState", "2")
-
-            }
-        }*/
     }
+
 }
