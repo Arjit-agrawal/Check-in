@@ -16,7 +16,7 @@ class SplashScreen : AppCompatActivity() {
         setContentView(binding.root)
 
         val firebaseAuth = FirebaseAuth.getInstance()
-        Handler(Looper.getMainLooper()).postDelayed( {
+        Handler(Looper.getMainLooper()).postDelayed({
             if (firebaseAuth.currentUser != null) {
                 val intent = Intent(applicationContext, MainActivity::class.java)
                 startActivity(intent)
